@@ -24,8 +24,6 @@ static void printBusinessCard(){
         printBusinessCard();
 
 
-
-
         Scanner scanner = new Scanner(System.in);
         int x = 5;
         System.out.println(x > 0);
@@ -103,7 +101,20 @@ static void printBusinessCard(){
             System.out.println("Lielākais no šiem skaitļiem ir: " + c);
         }
 
+        //4.uzd
 
+        System.out.println("Ieraksti vienu no krāsām, lai uzzinātu, vai drīkst šķērsot ielu: sarkans, dzeltens, zaļš");
+        String krasa = scanner.next();
+
+        if (krasa.equals("zaļš")) {
+            System.out.println("Drīkst šķērsot ielu");
+        } else if (krasa.equals("dzeltens")) {
+            System.out.println("Nedrīkst šķērsot ielu");
+        } else if (krasa.equals("sarkans")) {
+            System.out.println("Noteikti nedrīkst šķērsot ielu");
+        } else {
+            System.out.println("Ja nedeg neviena no gaismām, lūdzu šķērsot ielu saskaņa ar CS noteikumiem");
+        }
     }
     }
 
