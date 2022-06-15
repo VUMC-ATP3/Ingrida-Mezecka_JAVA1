@@ -1,4 +1,4 @@
-package homework;
+package homeWork;
 
 public class FirstClass {
 }
