@@ -19,7 +19,7 @@ public class Trissturis {
         this.malaViens = malaViens;
         this.malaDivi = malaDivi;
         this.malaTris = malaTris;
-       // return int laukums = (malaViens + malaDivi + malaTris) / 2;
+      return int laukums = (malaViens + malaDivi + malaTris) / 2;
 }
 
     public boolean vienadmalu() {

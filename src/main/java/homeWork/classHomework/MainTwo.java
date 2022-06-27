@@ -7,7 +7,7 @@ public class MainTwo {
         Trissturis trissturis = new Trissturis(4, 4, 12){
 
         };
-        System.out.println("laukums ir");
+        System.out.println("laukums ir" );
     }
 
 
