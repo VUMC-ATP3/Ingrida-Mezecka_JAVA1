@@ -11,15 +11,16 @@ public class Trissturis {
         System.out.println("veidoju trissturi");
     }
 
-    public void printetLaukumue() {
-        System.out.println("Trisstura laukums ir " + laukums);
+    public void printetLaukumu() {
+        System.out.println("Trisstura laukums ir " + laukums + "cm2");
     }
 
     public Trissturis (int malaViens, int malaDivi, int malaTris) {
         this.malaViens = malaViens;
         this.malaDivi = malaDivi;
         this.malaTris = malaTris;
-      return int laukums = (malaViens + malaDivi + malaTris) / 2;
+        laukums = (malaViens + malaDivi + malaTris) / 2;
+
 }
 
     public boolean vienadmalu() {
