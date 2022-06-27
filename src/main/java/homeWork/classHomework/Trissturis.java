@@ -12,7 +12,7 @@ public class Trissturis {
     }
 
     public void printetLaukumue() {
-        System.out.println("Trisstura laukums ir " + laukums());
+        System.out.println("Trisstura laukums ir " + laukums);
     }
 
     public Trissturis (int malaViens, int malaDivi, int malaTris) {
