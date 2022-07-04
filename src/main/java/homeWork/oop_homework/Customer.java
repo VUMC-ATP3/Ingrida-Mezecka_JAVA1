@@ -1,13 +1,15 @@
 package homeWork.oop_homework;
+import java.util.Date;
 
 public class Customer {
   private String name;
   private boolean member = false;
   private String memberType;
+  private Date date;
 
-    public Customer(String name){
-      this.name = name;
-    }
+  public Customer(String name){
+    this.name = name;
+  }
 
   public String getName() {
     return name;
@@ -38,4 +40,3 @@ public class Customer {
             '}';
   }
 }
-
